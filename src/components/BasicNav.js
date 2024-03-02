@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 function BasicNav() {
   return (
@@ -26,7 +27,7 @@ function BasicNav() {
     
       </ul>
     <div>
-    <button type="button" class=" mx-0 py-2 px-4  btn btn-lg btn-primary">Show result</button>
+    <Link to= "/result" type="button"  class=" mx-0 py-2 px-4  btn btn-lg btn-primary">Show result</Link>
     </div>
     </div>
   </div>

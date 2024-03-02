@@ -5,6 +5,7 @@ import {Routes , Route} from 'react-router-dom'
 import Verify from './components/Verify';
 import Thanks from './components/Thanks';
 import Voting from './components/Voting';
+import Result from './components/Result';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
         <Route path='thanks' element = {<Thanks />}>
         </Route>
         <Route path='voting' element = {<Voting />}>
+        </Route>
+        <Route path='result' element = {<Result />}>
         </Route>
         
       </Routes>
