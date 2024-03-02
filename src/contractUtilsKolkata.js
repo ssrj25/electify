@@ -23,7 +23,7 @@ export const voteForCandidate = async (candidateId, userAddress) => {
   const KolkataVoting = await getContractInstance();
   
   try {
-    await KolkataVotingContract.methods.vote(candidateId).send({ from: userAddress });
+    await KolkataVoting.methods.vote(candidateId).send({ from: userAddress });
     return true;
   } catch (error) {
     console.error('Error voting:', error);

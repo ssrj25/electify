@@ -6,6 +6,8 @@ import Verify from './components/Verify';
 import Thanks from './components/Thanks';
 import Voting from './components/Voting';
 import Result from './components/Result';
+import Kolkata from './components/Kolkata';
+import Mumbai from './components/Mumbai';
 
 
 function App() {
@@ -27,6 +29,10 @@ function App() {
         <Route path='voting' element = {<Voting />}>
         </Route>
         <Route path='result' element = {<Result />}>
+        </Route>
+        <Route path='kolkata' element = {<Kolkata />}>
+        </Route>
+        <Route path='mumbai' element = {<Mumbai />}>
         </Route>
         
       </Routes>
