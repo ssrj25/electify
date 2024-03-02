@@ -9,7 +9,7 @@ const Herosection = () => {
     <div className="col-10 col-sm-8 col-lg-6">
       <img
         src="https://expowisconsin.org/wp-content/uploads/2022/10/Voting-scaled.jpg"
-        className="d-block mx-lg-auto img-fluid"
+        className="d-block mx-lg-auto img-fluid rounded"
         alt="Bootstrap Themes"
         width={700}
         height={500}
