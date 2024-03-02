@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+
 
 const AddingAddress = () => {
   return (
@@ -15,7 +15,7 @@ const AddingAddress = () => {
         height={500}
         loading="lazy"
       /> */}
-      <form>
+      <form action='/verify' method='GET'>
   <div className="mb-3">
     {/* <label htmlFor="exampleInputEmail1" className="form-label">
       Enter Your Address
@@ -40,7 +40,7 @@ const AddingAddress = () => {
       I agree with the terms and conditions
     </label>
   </div>
-  <button type="submit" className="btn btn-primary">
+  <button type="submit"  className="btn btn-primary">
     Submit
   </button>
 </form>

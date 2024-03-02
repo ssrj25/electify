@@ -7,7 +7,7 @@ function BasicNav() {
   <div className="container-fluid">
     <a style={{
       fontSize:'40px',
-    }} className="mx-5 navbar-brand" href="#">
+    }} className="mx-5 navbar-brand" href="/">
       Electify
     </a>
     <button

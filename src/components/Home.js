@@ -7,7 +7,8 @@ const Home = () => {
     <>
         <BasicNav />
         <Herosection />
-    <Footer />     
+    
+         <Footer />     
     </>
   )
 }
