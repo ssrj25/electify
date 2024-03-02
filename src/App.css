@@ -1,0 +1,17 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    text-underline-offset: 2000px;
+}
+#myheader{
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 28px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
