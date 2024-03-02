@@ -47,11 +47,11 @@ const Verify = () => {
         </div>
         {/* Right Part: Select Photo */}
         <div className="col-md-6">
-          <div className="mb-3">
-            <label htmlFor="fileInput" className="form-label">Select Photo</label>
+          <div className="mb-3 ">
+            <label htmlFor="fileInput" className="form-label"><h3>Select Photo</h3></label>
             <input
               type="file"
-              className="form-control"
+              className="form-control bg-primary-subtle "
               id="fileInput"
               accept="image/*"
               onChange={handleImageChange}
@@ -59,7 +59,7 @@ const Verify = () => {
           </div>
           <button className="btn btn-primary" onClick={handleSubmit}>Upload</button>
           <p className="lead mt-3">
-            Some text describing the hero section. You can add more content here as needed.
+           Upload your identity proof.
           </p>
         </div>
       </div>
