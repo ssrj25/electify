@@ -27,7 +27,7 @@ const Verify = () => {
       console.log('Uploading image to database:', selectedImage);
       // You can perform actual upload logic here, such as using Axios to send the image data to a server
       // After successful upload, navigate to the next page
-      navigate('/thanks')
+      navigate('/voting')
     } else {
       console.log('No image selected.');
     }

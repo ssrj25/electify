@@ -14,9 +14,76 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    margin-top: 20rem;
 }
 .form-control{
     padding: 40px;
     min-height: 10rem;
     word-wrap: break-word;
 }
+.container-voting{
+    display: flex;
+    margin: auto;
+    margin-bottom: 200px;
+   margin-top: 4.5%;
+   box-shadow: 2px 2px 20px;}
+
+    .card-deck-voting{
+    display: flex;
+    justify-content: center;
+    margin: auto;}
+
+.card-voting{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    margin: 3%;
+}
+.btn-voting
+{
+    justify-content: baseline;
+}
+/* Voting.css */
+
+.card-voting {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-voting:hover::before {
+    content: "Vote";
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: #fff;
+    background-color: rgba(28, 239, 148, 0.5);
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-content {
+    position: relative;
+  }
+  
+  .card-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-voting:hover .card-content::before {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
