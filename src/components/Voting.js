@@ -127,6 +127,9 @@ const Voting = () => {
     return (
         <>
             <BasicNav />
+            <div className='text-center mt-3'>
+            <h1>Candidates</h1>      
+            </div>
             <div className="container container-voting">
                 <div className="card-deck card-deck-voting">
                     <div className="card card-voting">
@@ -166,10 +169,13 @@ const Voting = () => {
                             <button type="button" className="btn btn-voting btn-success" onClick={() => handleVote(3)}>
                                 Give Vote
                             </button>
+                           
                         </div>
+                         
                     </div>
                 </div>
             </div>
+            
             <Footer />
         </>
     )
