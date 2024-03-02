@@ -141,7 +141,7 @@ const Result = () => {
                         </div>
                     </div>
                     <div className="col-res col">
-                        <h2>Delhi</h2>
+                        <h2>Kolkata</h2>
                         <div className="cardiie" style={{ width: "18rem" }}>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="card-img-top" alt="..." />
                             <div className="card-body">

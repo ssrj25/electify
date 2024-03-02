@@ -18,10 +18,10 @@ const Herosection = () => {
     </div>
     <div className="col-lg-6">
       <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-        Welcome to the National Voting System
+        Welcome to the Decentralised Voting System
       </h1>
       <p className="lead">
-        The Voting System designed to cast vote with the maximum security to avoid the cheating in the election. The system is based on the Latest Blockchain technology.It will make sure that each person is allowed to vote only once.
+        The Voting System designed to cast vote with the maximum security and complete anonymity. The system is based on the latest Ethereum-Polygon based Blockchain technology. It will make sure that each person is allowed to vote only once.
       </p>
       <div className="d-grid gap-2 d-md-flex justify-content-md-start">
       <Link to="/address" className="btn btn-primary btn-lg px-4 me-md-2">

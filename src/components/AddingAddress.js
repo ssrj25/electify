@@ -66,10 +66,10 @@ const AddingAddress = () => {
           </div>
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              Enter Your Address
+              Blockchain Address
             </h1>
             <p className="lead">
-              The Voting System is designed to cast votes with maximum security to avoid cheating in elections. The system is based on the latest Blockchain technology. It ensures that each person is allowed to vote only once.
+               Please provide us with your Blockchain Account Address.
             </p>
           </div>
         </div>
