@@ -3,9 +3,28 @@ import BasicNav from './BasicNav'
 import Footer from './Footer'
 
 const Thanks = () => {
+
+
+  
+
+
   return (
     <>
     <BasicNav />
+
+  <div className="container">
+  <div className="confetti" />
+  <div className="confetti" />
+  <div className="confetti" />
+  <div className="confetti" />
+  <div className="confetti" />
+  <div className="confetti" />
+  <div className="confetti" />
+  <div className="confetti" />
+  <div className="confetti" />
+  <div className="confetti" />
+</div>
+
 
     <div className="container mt-5">
   <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
@@ -22,6 +41,10 @@ const Thanks = () => {
     </div>
   </div>
 </div>
+  
+
+
+
 
 <Footer />
 
