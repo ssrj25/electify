@@ -77,5 +77,3 @@ const AddingAddress = () => {
     </>
   );
 };
-
-export default AddingAddress;
