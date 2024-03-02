@@ -1,16 +1,15 @@
 import React from 'react'
+import BasicNav from './BasicNav'
+import Footer from './Footer'
+import AddingAddress from './AddingAddress'
 
 const Address = () => {
   return (
-    <div className="address-container d-flex justify-content-center align-items-center">
-      <form className="address-form bg-light p-4 rounded">
-        <div className="mb-3">
-          <label htmlFor="addressInput" className="form-label">Enter your address:</label>
-          <input type="text" className="form-control" id="addressInput" placeholder="Enter your address" />
-        </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
-      </form>
-    </div>
+   <>
+     <BasicNav />
+     <AddingAddress />
+    <Footer />
+   </>
   )
 }
 
