@@ -8,6 +8,7 @@ import Voting from './components/Voting';
 import Result from './components/Result';
 import Kolkata from './components/Kolkata';
 import Mumbai from './components/Mumbai';
+import {Register} from './components/register';
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
         <Route path='kolkata' element = {<Kolkata />}>
         </Route>
         <Route path='mumbai' element = {<Mumbai />}>
+        </Route>
+        <Route path='register' element = {<Register />}>
         </Route>
         
       </Routes> 

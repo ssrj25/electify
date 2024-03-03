@@ -113,8 +113,8 @@ const Result = () => {
     return (
         <>
             <BasicNav />
-            <div className="container text-center">
-                <h1>Final Vote Count</h1>
+            <div className="containerrr text-center">
+                <h1 class="ff">Final Vote Count</h1>
                 <div className="row align-items-start">
                     <div className="col col-res">
                         <h2>Mumbai</h2>

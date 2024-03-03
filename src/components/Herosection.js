@@ -24,9 +24,16 @@ const Herosection = () => {
       <p className="lead">
         The Voting System designed to cast vote with the maximum security and complete anonymity. The system is based on the latest Ethereum-Polygon based Blockchain technology. It will make sure that each person is allowed to vote only once.
       </p>
-      <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+      <div className=" bb d-grid gap-2 d-md-flex justify-content-md-start">
       <Link to="/address" className="btn btn-primary btn-lg px-4 me-md-2">
                 Cast Your Vote </Link>
+        <button type="button" className="btn btn-outline-secondary btn-lg px-4">
+          tutorial
+        </button>
+      </div>
+      <div className=" bb d-grid gap-2 d-md-flex justify-content-md-start">
+      <Link to="/register" className="btn btn-primary btn-lg px-4 me-md-2">
+                Orkes Registration </Link>
         <button type="button" className="btn btn-outline-secondary btn-lg px-4">
           tutorial
         </button>
