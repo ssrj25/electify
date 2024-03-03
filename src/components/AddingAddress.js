@@ -36,7 +36,7 @@ const AddingAddress = () => {
             <form onSubmit={handleSubmit}>
               <div className="mb-3">
                 <input
-                  placeholder='Example: njbfsdkfudfhbxjbzxvsdjfhsdilhcbzxmvjh'
+                  placeholder='Example: 0x888D3A1...'
                   type="text"
                   className="form-control form-control-lg border shadow-lg bg-info-subtle"
                   id="exampleInputEmail1"

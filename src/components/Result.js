@@ -114,28 +114,28 @@ const Result = () => {
         <>
             <BasicNav />
             <div className="container text-center">
-                <h1>Winner's List</h1>
+                <h1>Final Vote Count</h1>
                 <div className="row align-items-start">
                     <div className="col col-res">
                         <h2>Mumbai</h2>
                         <div className="cardiie" style={{ width: "18rem" }}>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Candidate A</h5>
+                                <h5 className="card-title">Raj Shinde</h5>
                                 <h6 className="count">{voteCounts['Candidate A']} Votes</h6>
                             </div>
                         </div>
                         <div className="cardiie" style={{ width: "18rem" }}>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Candidate B</h5>
+                                <h5 className="card-title">Milind Thackrey</h5>
                                 <h6 className="count">{voteCounts['Candidate B']} Votes</h6>
                             </div>
                         </div>
                         <div className="cardiie" style={{ width: "18rem" }}>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Candidate C</h5>
+                                <h5 className="card-title">Nikhil Shah</h5>
                                 <h6 className="count">{voteCounts['Candidate C']} Votes</h6>
                             </div>
                         </div>
@@ -145,21 +145,21 @@ const Result = () => {
                         <div className="cardiie" style={{ width: "18rem" }}>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Candidate D</h5>
+                                <h5 className="card-title">Debashish Debnath</h5>
                                 <h6 className="count">{voteCounts['Candidate D']} Votes</h6>
                             </div>
                         </div>
                         <div className="cardiie" style={{ width: "18rem" }}>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Candidate E</h5>
+                                <h5 className="card-title">Soham Agarwal</h5>
                                 <h6 className="count">{voteCounts['Candidate E']} Votes</h6>
                             </div>
                         </div>
                         <div className="cardiie" style={{ width: "18rem" }}>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Candidate F</h5>
+                                <h5 className="card-title">Prem Chatterjee</h5>
                                 <h6 className="count">{voteCounts['Candidate F']} Votes</h6>
                             </div>
                         </div>

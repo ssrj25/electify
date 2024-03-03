@@ -52,7 +52,7 @@ const Verify = () => {
           {/* Right Part: Select Photo */}
           <div className="col-md-6">
             <div className="mb-3 ">
-              <label htmlFor="fileInput" className="form-label"><h3>Select Photo</h3></label>
+              <label htmlFor="fileInput" className="form-label"><h3>Insert Gov. Registered Identity Card</h3></label>
               <input
                 type="file"
                 className="form-control bg-primary-subtle "

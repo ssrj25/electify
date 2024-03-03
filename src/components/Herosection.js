@@ -1,12 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+
 const Herosection = () => {
   return (
     <>     
        <div className="container col-xxl-8 px-4 py-5">
   <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-    <div className="col-10 col-sm-8 col-lg-6">
+    <div className="col-12 col-sm-8 col-lg-6">
       <img
         src="https://expowisconsin.org/wp-content/uploads/2022/10/Voting-scaled.jpg"
         className="d-block mx-lg-auto img-fluid rounded"

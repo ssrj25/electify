@@ -35,7 +35,7 @@ function App() {
         <Route path='mumbai' element = {<Mumbai />}>
         </Route>
         
-      </Routes>
+      </Routes> 
     </>
   );
 }

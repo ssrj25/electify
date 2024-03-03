@@ -57,7 +57,7 @@ const Mumbai = () => {
                     <div className="card card-voting">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="card-img-top" alt="..." width="30%" />
                         <div className="card-body">
-                            <h5 className="card-title">Candidate A</h5>
+                            <h5 className="card-title">Raj Shinde</h5>
                             <p className="card-text">
                                 This is a longer card with supporting text below as a natural lead-in
                                 to additional content.
@@ -70,7 +70,7 @@ const Mumbai = () => {
                     <div className="card card-voting">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="card-img-top" alt="..." width="30%" />
                         <div className="card-body">
-                            <h5 className="card-title">Candidate B</h5>
+                            <h5 className="card-title">Milind Thackrey</h5>
                             <p className="card-text">
                                 This is a longer card with supporting text below as a natural lead-in
                                 to additional content.
@@ -83,7 +83,7 @@ const Mumbai = () => {
                     <div className="card card-voting">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="card-img-top" alt="..." width="30%" />
                         <div className="card-body">
-                            <h5 className="card-title">Candidate C</h5>
+                            <h5 className="card-title">Nikhil Shah</h5>
                             <p className="card-text">
                                 This is a longer card with supporting text below as a natural lead-in
                                 to additional content.
